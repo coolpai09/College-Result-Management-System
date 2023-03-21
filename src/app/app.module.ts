@@ -7,6 +7,8 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { MarksComponent } from './marks/marks.component';
 import { HomescreenComponent } from './homescreen/homescreen.component';
+import { HscComponent } from './hsc/hsc.component';
+import { FacultyComponent } from './faculty/faculty.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { HomescreenComponent } from './homescreen/homescreen.component';
     RegisterComponent,
     LoginComponent,
     MarksComponent,
-    HomescreenComponent
+    HomescreenComponent,
+    HscComponent,
+    FacultyComponent
   ],
   imports: [
     BrowserModule,

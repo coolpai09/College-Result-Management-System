@@ -8,17 +8,19 @@
   <body>
     <section class="wrapper">
       <div class="form register">
-        <header>Login</header>
+        <header>Faculty Login</header>
         <form action="#">
-          <input type="text" placeholder="University Seat Number" required />
+          <input type="text" placeholder="Faculty ID" required />
           <input type="password" placeholder="Password" required />
           <div class="checkbox">
             <input type="checkbox" id="loginCheck" />
             <label for="loginCheck">I hereby agree the above details are filled !!!</label>
           </div>
-          <input type="submit" value="Login" />
+          <!-- <input type="submit" value="Login" /> -->
+          <button (click)="onMarkClick()">Login</button>
         </form>
       </div>
+
     </section>
   </body>
 </html>

@@ -11,8 +11,14 @@ export class HomescreenComponent implements OnInit {
   constructor(private router: Router) {}
 
 
-  ngOnInit() {
-    this.router.navigate(['/src/app/login/login.component.html']);
+  ngOnInit(): void {}
+
+  onRegisterClick(){
+    this.router.navigate(['/register']);
+  }
+
+  onLoginClick(){
+    this.router.navigate(['/hsc']);
   }
 
 }
