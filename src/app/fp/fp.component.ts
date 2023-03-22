@@ -19,4 +19,8 @@ export class FpComponent implements OnInit {
   onUpdateClick(){
     this.router.navigate(['/update']);
   }
+
+  logout(){
+    this.router.navigate(['/faculty'])
+  }
 }
