@@ -12,8 +12,8 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
   }
-  onSpClick(){
-    this.router.navigate(['/sp']);
+  sh(){
+    this.router.navigate(['/sh']);
   }
-  
+
 }

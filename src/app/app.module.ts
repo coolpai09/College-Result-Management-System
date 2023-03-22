@@ -12,6 +12,7 @@ import { FacultyComponent } from './faculty/faculty.component';
 import { FpComponent } from './fp/fp.component';
 import { UpdateComponent } from './update/update.component';
 import { SpComponent } from './sp/sp.component';
+import { ShComponent } from './sh/sh.component';
 
 
 
@@ -26,7 +27,8 @@ import { SpComponent } from './sp/sp.component';
     FacultyComponent,
     FpComponent,
     UpdateComponent,
-    SpComponent
+    SpComponent,
+    ShComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { HscComponent } from './hsc/hsc.component';
 import { LoginComponent } from './login/login.component';
 import { MarksComponent } from './marks/marks.component';
 import { RegisterComponent } from './register/register.component';
+import { ShComponent } from './sh/sh.component';
 import { SpComponent } from './sp/sp.component';
 import { UpdateComponent } from './update/update.component';
 
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:"faculty", component:FacultyComponent},
   {path:"fp", component:FpComponent},
   {path:"update", component: UpdateComponent},
-  {path:"sp", component:SpComponent}
+  {path:"sp", component:SpComponent},
+  {path:"sh", component:ShComponent}
 ];
 
 @NgModule({
