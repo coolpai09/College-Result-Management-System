@@ -9,16 +9,17 @@ import { Router } from '@angular/router';
 export class HomescreenComponent implements OnInit {
 
   constructor(private router: Router) {}
-
-
   ngOnInit(): void {}
 
   onRegisterClick(){
     this.router.navigate(['/register']);
+
   }
 
   onLoginClick(){
     this.router.navigate(['/hsc']);
+
   }
+
 
 }

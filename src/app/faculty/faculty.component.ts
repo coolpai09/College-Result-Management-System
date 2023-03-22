@@ -12,6 +12,9 @@ export class FacultyComponent implements OnInit {
 
   ngOnInit() {
   }
+  onfpClick(){
+    this.router.navigate(['/fp']);
+  }
 
   onMarkClick(){
     this.router.navigate(['/marks']);

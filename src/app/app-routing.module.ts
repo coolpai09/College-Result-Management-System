@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FacultyComponent } from './faculty/faculty.component';
+import { FpComponent } from './fp/fp.component';
 import { HomescreenComponent } from './homescreen/homescreen.component';
 import { HscComponent } from './hsc/hsc.component';
 import { LoginComponent } from './login/login.component';
 import { MarksComponent } from './marks/marks.component';
 import { RegisterComponent } from './register/register.component';
+import { UpdateComponent } from './update/update.component';
 
 const routes: Routes = [
   {path:"register", component: RegisterComponent},
@@ -13,7 +15,9 @@ const routes: Routes = [
   {path:"login", component: LoginComponent},
   {path:"marks", component: MarksComponent},
   {path:"hsc", component: HscComponent},
-  {path:"faculty", component:FacultyComponent}
+  {path:"faculty", component:FacultyComponent},
+  {path:"fp", component:FpComponent},
+  {path:"update", component: UpdateComponent}
 ];
 
 @NgModule({

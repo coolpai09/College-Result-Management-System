@@ -9,7 +9,8 @@ import { MarksComponent } from './marks/marks.component';
 import { HomescreenComponent } from './homescreen/homescreen.component';
 import { HscComponent } from './hsc/hsc.component';
 import { FacultyComponent } from './faculty/faculty.component';
-
+import { FpComponent } from './fp/fp.component';
+import { UpdateComponent } from './update/update.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,9 @@ import { FacultyComponent } from './faculty/faculty.component';
     MarksComponent,
     HomescreenComponent,
     HscComponent,
-    FacultyComponent
+    FacultyComponent,
+    FpComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
