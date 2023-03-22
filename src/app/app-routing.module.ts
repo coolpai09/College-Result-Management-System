@@ -7,6 +7,7 @@ import { HscComponent } from './hsc/hsc.component';
 import { LoginComponent } from './login/login.component';
 import { MarksComponent } from './marks/marks.component';
 import { RegisterComponent } from './register/register.component';
+import { SpComponent } from './sp/sp.component';
 import { UpdateComponent } from './update/update.component';
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:"hsc", component: HscComponent},
   {path:"faculty", component:FacultyComponent},
   {path:"fp", component:FpComponent},
-  {path:"update", component: UpdateComponent}
+  {path:"update", component: UpdateComponent},
+  {path:"sp", component:SpComponent}
 ];
 
 @NgModule({
